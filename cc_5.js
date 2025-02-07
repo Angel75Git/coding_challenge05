@@ -49,4 +49,10 @@ let inventory = [5, 0, 12, 8, 0];
 //Removing the 1st and 4th index using filter
 console.log(inventory.filter(stock => stock !== 0));
 
+//Task 6
+let sales = [500, 300, 200, 400];
+//Using a arrow function within reduce to add sales
+let totalSales = sales.reduce((total, sale) => total + sale, 0);
+console.log(`Total sales: $${totalSales}`);
+
 
