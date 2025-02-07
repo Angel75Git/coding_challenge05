@@ -25,3 +25,16 @@ let order = {
 }
 //Calling the method
 order.displayOrder()
+
+//Task 3
+let cartItems =["Toaster", "Butter", "Bread"]
+cartItems.push("Sugar");
+console.log(cartItems); //Console log to see changes
+cartItems.pop();
+console.log(cartItems);
+cartItems.unshift("Honey");
+console.log(cartItems);
+cartItems.shift();
+console.log(cartItems);
+
+
