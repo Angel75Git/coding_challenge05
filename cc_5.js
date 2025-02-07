@@ -44,3 +44,9 @@ let discountPrices = prices.map(prices => prices - (prices * .10));
 console.log(`Original: ${prices}`);
 console.log(`Discounted: ${discountPrices}`);
 
+//Task 5
+let inventory = [5, 0, 12, 8, 0];
+//Removing the 1st and 4th index using filter
+console.log(inventory.filter(stock => stock !== 0));
+
+
