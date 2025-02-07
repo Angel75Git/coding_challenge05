@@ -62,4 +62,10 @@ let customers = ["Alice", "Bob", "Charlie", "David"];
 const findCustomer = customers.find(person => person == "Charlie");
 console.log(`We have located: ${findCustomer}`);
 
+//Task 8 
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+//Log the tax portion
+console.log(`Calculated Tax: $${calculateTax(188.25, 0.08)}`)
 
