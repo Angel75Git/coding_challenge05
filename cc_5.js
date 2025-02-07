@@ -37,4 +37,10 @@ console.log(cartItems);
 cartItems.shift();
 console.log(cartItems);
 
+//Task 4
+let prices = [100, 200, 300]
+let discountPrices = prices.map(prices => prices - (prices * .10));
+//Showing change from map method
+console.log(`Original: ${prices}`);
+console.log(`Discounted: ${discountPrices}`);
 
