@@ -55,4 +55,11 @@ let sales = [500, 300, 200, 400];
 let totalSales = sales.reduce((total, sale) => total + sale, 0);
 console.log(`Total sales: $${totalSales}`);
 
+//Task 7
+let customers = ["Alice", "Bob", "Charlie", "David"];
+//Since we already have a variable customer in task 1,
+//the names of variables differ
+const findCustomer = customers.find(person => person == "Charlie");
+console.log(`We have located: ${findCustomer}`);
+
 
