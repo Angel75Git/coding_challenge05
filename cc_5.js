@@ -70,8 +70,11 @@ function calculateTax(amount, taxRate) {
 console.log(`Calculated Tax: $${calculateTax(188.25, 0.08)}`)
 
 //Task 9
-function applyDiscounted(price, discount){
+const applyDiscounted = function(price, discount){
     return price - (price * discount);
 }
 //logging a 25% discount on $1,200
-console.log(`Discounted price: $${applyDiscounted(1200, 0.25)}`)
+let disPrice = applyDiscounted(1200, 0.25)
+console.log(`Discounted price: $${disPrice}`)
+
+//Task 10
