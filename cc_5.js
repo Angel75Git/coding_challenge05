@@ -78,3 +78,6 @@ let disPrice = applyDiscounted(1200, 0.25)
 console.log(`Discounted price: $${disPrice}`)
 
 //Task 10
+const calculatePoints = (purchaseAmount) => Math.floor(purchaseAmount / 10);
+let points = calculatePoints(500);
+console.log(`Loyalty points: ${points}`);
